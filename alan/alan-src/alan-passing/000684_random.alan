@@ -1,0 +1,1 @@
+source ZD function h() to integer begin integer Kx; relax end function U() to boolean begin relax end function V5() begin integer array I, V; leave 8; call DE(4, 0); get X92[849] end function b() begin if 5 then while 5 do relax end else leave end; leave; put "" end function e() begin get b end function f() begin put "{"; get s3 end begin relax end

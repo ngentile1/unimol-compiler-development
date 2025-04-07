@@ -1,0 +1,1 @@
+source a begin a[false] := not false; leave end

@@ -1,0 +1,1 @@
+source kHOM begin call W(); E := array not not(6) end

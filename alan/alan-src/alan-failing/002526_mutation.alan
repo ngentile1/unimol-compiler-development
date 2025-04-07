@@ -1,0 +1,1 @@
+source a begin a := get array 0 end

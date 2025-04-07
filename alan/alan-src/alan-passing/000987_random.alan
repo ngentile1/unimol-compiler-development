@@ -1,0 +1,1 @@
+source o function R(integer z, integer array d) to integer begin relax end begin leave not 85424 >= - not false; put "" end

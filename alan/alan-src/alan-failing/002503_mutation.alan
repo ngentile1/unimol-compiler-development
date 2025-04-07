@@ -1,0 +1,1 @@
+source a begin a := call array 0 end

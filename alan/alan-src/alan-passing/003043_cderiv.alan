@@ -1,0 +1,1 @@
+source a begin put false * a(false, false, false) end

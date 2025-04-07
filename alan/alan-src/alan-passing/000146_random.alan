@@ -1,0 +1,1 @@
+source Q begin get b[V / true rem(5) and true]; if(16) rem(7) / (2) then leave 241; call FHz(3, 687773) end end

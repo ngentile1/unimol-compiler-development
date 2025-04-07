@@ -1,0 +1,1 @@
+source a begin if call a() then relax end end

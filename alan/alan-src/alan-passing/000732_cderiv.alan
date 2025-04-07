@@ -1,0 +1,1 @@
+source a begin a := array - (false <= false) end

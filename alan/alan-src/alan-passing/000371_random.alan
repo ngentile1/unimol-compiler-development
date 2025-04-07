@@ -1,0 +1,1 @@
+source Bk begin while C74(0, 2) + 794 and R4() <= - not false rem not 9 - false do leave; if - dEC - 2 then relax elsif 4 then relax elsif 5 then leave elsif 63 then relax else while 40 do relax end; leave end end; put "*" end

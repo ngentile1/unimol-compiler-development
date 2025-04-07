@@ -1,0 +1,1 @@
+source Ki function g11(boolean b) begin relax end begin get t[false and true] end

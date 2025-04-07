@@ -1,0 +1,1 @@
+source R5 function n385Wa(boolean F, boolean array U) begin leave; call S(); get k[S]; put "" . 029382 . "q\n"; call KU(2855); get F; put "\n\t\\" end begin integer array c2, O; leave end

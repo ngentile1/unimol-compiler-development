@@ -1,0 +1,1 @@
+source a begin leave true function a() begin relax end end

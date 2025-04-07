@@ -1,0 +1,1 @@
+source a begin boolean array if 0 then relax end a; relax end

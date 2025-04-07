@@ -1,0 +1,1 @@
+source h begin integer array o; call y() end

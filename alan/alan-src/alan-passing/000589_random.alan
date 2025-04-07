@@ -1,0 +1,1 @@
+source i5 function P() to boolean begin call b() end begin integer array AV, J, zr81; boolean array C; relax end

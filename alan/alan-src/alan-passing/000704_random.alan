@@ -1,0 +1,1 @@
+source b3 function X(boolean array r) begin relax end begin boolean array l; relax end

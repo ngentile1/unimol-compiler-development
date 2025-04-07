@@ -1,0 +1,1 @@
+source G function k() begin integer array Y; put "!Vk\"a" . "" . "~\n" end begin boolean array b; leave end
