@@ -2,11 +2,13 @@ package it.unimol.alan;
 
 import java.nio.file.Paths;
 
+import org.antlr.v4.runtime.BaseErrorListener;
 import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.CharStreams;
 import org.antlr.v4.runtime.CommonTokenStream;
 import org.antlr.v4.runtime.Lexer;
-import org.antlr.v4.runtime.Token;
+import org.antlr.v4.runtime.RecognitionException;
+import org.antlr.v4.runtime.Recognizer;
 
 /**
  * Hello world!
@@ -14,19 +16,23 @@ import org.antlr.v4.runtime.Token;
  */
 public class Main {
   public static void main(String[] args) {
-    System.out.println("Starting the lexer");
     try {
       CharStream charStream = CharStreams.fromPath(Paths.get(args[0]));
       Lexer lexer = new AlanLexer(charStream);
       CommonTokenStream tokens = new CommonTokenStream(lexer);
-      tokens.fill();
-      for (Token token : tokens.getTokens()) {
-        String tokenTypeName = lexer.getVocabulary().getSymbolicName(token.getType());
-        System.out.println("Got token: (" + tokenTypeName + ") " + token.toString());
-      } 
+      AlanParser parser = new AlanParser(tokens);
+      parser.removeErrorListeners();
+      parser.addErrorListener(new BaseErrorListener() {
+        @Override
+        public void syntaxError(Recognizer<?, ?> recognizer, Object offendingSymbol, int line,
+            int charPositionInLine, String msg, RecognitionException e) {
+          throw new RuntimeException("Syntax error at line " + line + ":" + charPositionInLine + " - " + msg);
+        }
+      });
+      parser.source();
+      System.out.println("success");
     } catch (Exception e) {
-      System.out.println("Error:" + e.getMessage());
+      System.out.println("fail");
     }
-
   }
 }

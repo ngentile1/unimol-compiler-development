@@ -21,7 +21,7 @@ public class AlanG4Test
      * Rigorous Test :-)
      */
 
-    public boolean  testDataset(String datasetPath, boolean shouldPass) {
+    public boolean testDataset(String datasetPath, boolean shouldPass) {
         boolean pass = shouldPass;
         boolean fail = !pass;
         return Stream.of(new File(datasetPath).listFiles())
@@ -47,7 +47,7 @@ public class AlanG4Test
                             System.err.println("Parsing expected to fail on " + path);
                         }
                         return pass;
-                    } catch (SyntaxErrorException e) {
+                    } catch (SyntaxErrorException|TooLongIDException e) {
                         if(shouldPass) {
                             System.err.println("Error in file: " + path);
                             System.err.println(e.getMessage());

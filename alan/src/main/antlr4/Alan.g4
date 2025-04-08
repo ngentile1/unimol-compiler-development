@@ -2,6 +2,8 @@ grammar Alan;
 
 @header{
 package it.unimol.alan;
+
+import it.unimol.alan.TooLongIDException;
 }
 
 source
@@ -181,7 +183,7 @@ fragment LETTER
     ;
 
 ID 
-    : LETTER (LETTER|DIGIT)*  
+    : LETTER (LETTER|DIGIT)*  { if(getText().length() > 32) throw new TooLongIDException("Identifier must at most 32 character: " + getText()); }
     ;
 
 NUM 
@@ -209,7 +211,7 @@ fragment COMMENT_TEXT
     ;
 
 COMMENT
-    : '{' COMMENT_TEXT? COMMENT? COMMENT_TEXT? '}' 
+    : '{' COMMENT_TEXT? COMMENT? COMMENT_TEXT? '}' -> skip
     ;
 
 WS: [ \n\t\r]+ -> skip;

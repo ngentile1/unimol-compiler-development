@@ -1,6 +1,8 @@
-// Generated from /home/nik/Desktop/compiler/assign1/alan/src/main/antlr4/Alan.g4 by ANTLR 4.13.1
+// Generated from /home/nik/Desktop/unimol-compiler-development/alan/src/main/antlr4/Alan.g4 by ANTLR 4.13.1
 
 package it.unimol.alan;
+
+import it.unimol.alan.TooLongIDException;
 
 import org.antlr.v4.runtime.atn.*;
 import org.antlr.v4.runtime.dfa.DFA;
