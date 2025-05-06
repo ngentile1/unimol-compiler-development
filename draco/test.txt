@@ -1,0 +1,1 @@
+write(CRTOut; FilePosHigh : x : -2, FilePos : x : -4);
