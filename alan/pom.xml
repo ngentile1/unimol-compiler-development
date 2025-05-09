@@ -123,6 +123,7 @@
         <version>3.0.1</version>
         <executions>
           <execution>
+            <id>copy-src-files</id>
             <phase>validate</phase>
             <goals>
               <goal>copy-resources</goal>
@@ -133,6 +134,33 @@
                 <resource>
                   <directory>${basedir}/alan-src</directory>
                   <filtering>true</filtering>
+                </resource>
+              </resources>              
+            </configuration>            
+          </execution>
+          <execution>
+            <id>copy-assign-files</id>
+            <phase>validate</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>${basedir}/target/assign1</outputDirectory>
+              <resources>          
+                <resource>
+                  <directory>${basedir}/src/main/java</directory>
+                </resource>
+                <resource>
+                  <directory>${basedir}/src/main/antlr4</directory>
+                  <includes>
+                    <include>Alan.g4</include>
+                  </includes>
+                </resource>
+                <resource>
+                  <directory>${basedir}/assign-resources</directory>
+                  <includes>
+                    <include>automata.jpg</include>
+                  </includes>
                 </resource>
               </resources>              
             </configuration>            
