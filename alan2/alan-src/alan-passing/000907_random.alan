@@ -1,0 +1,1 @@
+source ZPL function F(integer array jv, integer array T40V, boolean array G) begin IC4 := array not 0 end begin boolean h, T; relax end

@@ -1,0 +1,1 @@
+source a begin call a(if 0 then relax end end

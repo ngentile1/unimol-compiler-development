@@ -1,0 +1,1 @@
+source a begin while false do a := array false end; leave end

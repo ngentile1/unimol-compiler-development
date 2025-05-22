@@ -1,0 +1,1 @@
+source a function a() begin relax end function a() begin put "" . "" . "" end begin relax end

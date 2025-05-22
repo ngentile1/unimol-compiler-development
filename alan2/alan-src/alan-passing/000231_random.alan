@@ -1,0 +1,1 @@
+source d begin integer array Z; integer array R4, YM, H6; boolean d65; put "" end

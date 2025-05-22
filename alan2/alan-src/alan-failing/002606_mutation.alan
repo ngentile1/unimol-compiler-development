@@ -1,0 +1,1 @@
+source a begin a := put "" array 0 end

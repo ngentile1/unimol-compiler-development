@@ -1,0 +1,1 @@
+source a function a(boolean a) to boolean begin a := false / false end begin relax end

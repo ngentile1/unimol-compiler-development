@@ -1,0 +1,1 @@
+source a begin boolean put "" array a; relax end

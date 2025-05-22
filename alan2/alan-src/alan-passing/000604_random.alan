@@ -1,0 +1,1 @@
+source o5j function z() to boolean begin put fw end function J(integer t, boolean M, integer array U8, boolean x, integer gWPo) to integer begin boolean array R; leave end function b84(boolean array V7D) to boolean begin integer x, LwO; put ""; put ""; put 11 . "?"; leave; call ExF(); leave end begin relax end

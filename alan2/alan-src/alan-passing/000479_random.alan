@@ -1,0 +1,1 @@
+source I function vvy() begin put "" . "\"3" . 7 = 3 . 26 . "\t8-" end begin leave(0) end

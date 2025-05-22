@@ -1,0 +1,1 @@
+source r function p01() to integer begin if - false then if 1 then relax elsif 9 then leave else relax end; put "" end; yk := array(9) end begin integer v5, agy6, d, YQ, g; put 5; leave; leave; put - O - 575 >= 76; get K; call I() end

@@ -1,0 +1,1 @@
+source a function a() begin relax end else begin relax end

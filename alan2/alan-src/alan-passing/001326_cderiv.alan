@@ -1,0 +1,1 @@
+source a begin if false then call a() elsif false then relax else relax end end

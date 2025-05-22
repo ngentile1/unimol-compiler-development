@@ -1,0 +1,1 @@
+source a function a(boolean a) begin call a() end begin relax end

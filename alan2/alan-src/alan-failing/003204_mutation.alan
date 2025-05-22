@@ -1,0 +1,1 @@
+source a begin if 0 then relax elsif function a() begin relax end then relax end end

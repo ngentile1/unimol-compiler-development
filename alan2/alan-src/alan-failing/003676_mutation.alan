@@ -1,0 +1,1 @@
+source a begin integer function a() begin relax end a; relax end

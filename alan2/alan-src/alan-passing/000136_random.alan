@@ -1,0 +1,1 @@
+source P begin get t5; put "1"; put "="; get K[- false + A0] end

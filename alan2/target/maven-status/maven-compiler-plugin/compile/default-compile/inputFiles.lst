@@ -1,0 +1,15 @@
+/home/nik/Desktop/unimol-compiler-development/alan2/src/main/java/it/unimol/alan2/Type.java
+/home/nik/Desktop/unimol-compiler-development/alan2/src/main/java/it/unimol/alan2/SyntaxError.java
+/home/nik/Desktop/unimol-compiler-development/alan2/src/main/java/it/unimol/alan2/VisitorResult.java
+/home/nik/Desktop/unimol-compiler-development/alan2/src/main/java/it/unimol/alan2/Symbol.java
+/home/nik/Desktop/unimol-compiler-development/alan2/target/generated-sources/antlr4/Alan2BaseListener.java
+/home/nik/Desktop/unimol-compiler-development/alan2/src/main/java/it/unimol/alan2/Main.java
+/home/nik/Desktop/unimol-compiler-development/alan2/target/generated-sources/antlr4/Alan2Visitor.java
+/home/nik/Desktop/unimol-compiler-development/alan2/src/main/java/it/unimol/alan2/TooLongIDException.java
+/home/nik/Desktop/unimol-compiler-development/alan2/target/generated-sources/antlr4/Alan2Parser.java
+/home/nik/Desktop/unimol-compiler-development/alan2/src/main/java/it/unimol/alan2/DuplicateIDInScopeException.java
+/home/nik/Desktop/unimol-compiler-development/alan2/target/generated-sources/antlr4/Alan2BaseVisitor.java
+/home/nik/Desktop/unimol-compiler-development/alan2/target/generated-sources/antlr4/Alan2Listener.java
+/home/nik/Desktop/unimol-compiler-development/alan2/target/generated-sources/antlr4/Alan2Lexer.java
+/home/nik/Desktop/unimol-compiler-development/alan2/src/main/java/it/unimol/alan2/TypeScopeCheckerVisitor.java
+/home/nik/Desktop/unimol-compiler-development/alan2/src/main/java/it/unimol/alan2/ScopeStack.java

@@ -1,0 +1,16 @@
+{this is a comment}
+
+{ this
+ is a multiline
+ comment
+}
+
+{
+    this is
+    a {
+        nested
+    }
+    comment
+}
+
+source a function a(boolean array a, boolean a) begin relax end begin relax end

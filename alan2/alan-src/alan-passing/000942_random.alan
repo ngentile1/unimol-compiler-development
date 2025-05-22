@@ -1,0 +1,1 @@
+source hi function Az(integer Kb) to boolean begin leave end begin boolean array a; boolean ro; relax end
